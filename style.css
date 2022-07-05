@@ -1,0 +1,115 @@
+import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+body {
+    font-family: font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(45deg, orange, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px 10px;
+
+
+}
+
+.top {
+    display: flex;
+}
+
+.top,
+.middle {
+    background-image: url();
+}
+
+.top .half-width h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 2%;
+}
+
+img {
+    width: 80%;
+}
+
+.middle h1 {
+    font-size: 50px;
+}
+
+.middle .half-width img {
+    width: 50%;
+    height: 50%;
+}
+
+.mid-right {
+    padding: 200px;
+}
+
+.botto h1 {
+    text-align: center;
+}
+
+.button p {
+    text-align: center;
+}
+
+.products {
+    display: flex;
+}
+
+.products .half-width {
+    width: 40%;
+    margin: auto;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px gray;
+
+}
+
+.products .half-width .text {
+    width: 90%;
+    margin: auto;
+}
+
+.image img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.products .half-width h1 {
+    text-align: center;
+}
+
+.products .half-width p {
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 100px;
+    box-shadow: 0px 5px 10px gray;
+    margin-bottom: 50px;
+}
+
+.footer h1 {
+    font-size: 50px;
+}
